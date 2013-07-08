@@ -1,0 +1,26 @@
+{
+  "name": "benatkin-vim-config",
+  "version": "0.0.0",
+  "description": "Ben Atkin's vim configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benatkin/vim-config.git"
+  },
+  "keywords": [
+    "vim"
+  ],
+  "author": "Ben Atkin <ben@benatkin.com> (http://benatkin.com/)",
+  "license": "MIT",
+  "gitHead": "cc371b0bc1fe79e316f0192ce2da0a7d2f7ec473",
+  "bugs": {
+    "url": "https://github.com/benatkin/vim-config/issues"
+  },
+  "publish": false,
+  "dependencies": {
+    "mkdirp": "~0.3.5"
+  }
+}
