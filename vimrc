@@ -1,3 +1,4 @@
 execute pathogen#infect()
-syntax on
-filetype plugin indent on
+
+runtime! plugin/sensible.vim
+set undodir^=~/.vim/undo
