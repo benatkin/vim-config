@@ -1,4 +1,5 @@
 execute pathogen#infect()
 
 runtime! plugin/sensible.vim
-set undodir^=~/.vim/undo
+set undodir^=~/.vim/tmp/undo
+set backupdir^=~/.vim/tmp/backup
