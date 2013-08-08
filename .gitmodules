@@ -25,3 +25,6 @@
 [submodule "bundle/vim-scriptease"]
 	path = bundle/vim-scriptease
 	url = https://github.com/tpope/vim-scriptease.git
+[submodule "bundle/ag.vim"]
+	path = bundle/ag.vim
+	url = git@github.com:rking/ag.vim.git
