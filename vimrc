@@ -11,3 +11,6 @@ autocmd filetype ruby,rhtml setlocal sts=2 sw=2 et
 autocmd filetype javascript setlocal sts=2 sw=2 et
 autocmd filetype python setlocal sts=4 sw=4 et
 autocmd filetype markdown setlocal sts=4 sw=4 et
+
+au BufNewFile,BufRead *.prawn set filetype=ruby
+
