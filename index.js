@@ -5,7 +5,7 @@ var vimDir = path.join(process.env.HOME, '.vim');
 
 function initDirs() {
   ['swap', 'backup', 'undo'].forEach(function(dir) {
-    mkdirp(path.join(vimDir, 'tmpp', dir), function() {});
+    mkdirp(path.join(vimDir, 'tmp', dir), function() {});
   });
 }
 
