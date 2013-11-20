@@ -5,6 +5,8 @@ set undodir^=~/.vim/tmp/undo
 set backupdir^=~/.vim/tmp/backup
 set dir=~/.vim/tmp/swap
 
+au BufNewFile,BufRead *.md set filetype=markdown
+
 au BufNewFile,BufRead *.prawn set filetype=ruby
 
 au filetype html setlocal sts=2 sw=2 et
