@@ -34,3 +34,21 @@
 [submodule "bundle/vim-golang"]
 	path = bundle/vim-golang
 	url = https://github.com/jnwhiteh/vim-golang.git
+[submodule "bundle/vim-orgmode"]
+	path = bundle/vim-orgmode
+	url = git@github.com:jceb/vim-orgmode.git
+[submodule "bundle/vim-ls"]
+	path = bundle/vim-ls
+	url = git@github.com:gkz/vim-ls.git
+[submodule "bundle/vim-scala"]
+	path = bundle/vim-scala
+	url = git@github.com:derekwyatt/vim-scala.git
+[submodule "bundle/sbt-vim"]
+	path = bundle/sbt-vim
+	url = git@github.com:ktvoelker/sbt-vim.git
+[submodule "bundle/vim-scalaConceal"]
+	path = bundle/vim-scalaConceal
+	url = git@github.com:mpollmeier/vim-scalaConceal.git
+[submodule "bundle/vim-speeddating"]
+	path = bundle/vim-speeddating
+	url = git@github.com:tpope/vim-speeddating.git
