@@ -9,3 +9,5 @@ set vb
 " disable scrollbars
 set guioptions+=lrb
 set guioptions-=lrb
+
+set showtabline=2
