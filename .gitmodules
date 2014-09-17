@@ -68,5 +68,5 @@
 	path = bundle/vim-tomorrow-theme
 	url = git@github.com:chriskempson/vim-tomorrow-theme.git
 [submodule "vim-colors-solarized"]
-	path = vim-colors-solarized
+	path = bundle/vim-colors-solarized
 	url = git@github.com:altercation/vim-colors-solarized.git
