@@ -2,7 +2,7 @@ execute pathogen#infect()
 
 " many sensible
 runtime! plugin/sensible.vim
-syntax off
+syntax on
 highlight NonText ctermfg=4
 
 " so directory
