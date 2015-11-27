@@ -4,6 +4,7 @@ execute pathogen#infect()
 runtime! plugin/sensible.vim
 syntax on
 highlight NonText ctermfg=4
+set hidden
 
 " so directory
 set undodir^=~/.vim/tmp/undo
@@ -32,6 +33,8 @@ au filetype yaml setlocal sts=2 sw=2 et
 map ,e :e <C-R>=expand("%:p:h") . "/" <CR>
 map ,t :tabe <C-R>=expand("%:p:h") . "/" <CR>
 map ,s :split <C-R>=expand("%:p:h") . "/" <CR>
+cnoremap <C-a> <Home>
+cnoremap <C-e> <End>
 
 " wow prefs
 colo Tomorrow-Night

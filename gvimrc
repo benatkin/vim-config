@@ -1,4 +1,4 @@
-set guifont=Source\ Code\ Pro:h14
+set guifont=Source\ Code\ Pro:h12.5
 colo Tomorrow-Night
 syntax on
 
@@ -8,7 +8,7 @@ syntax on
 set vb
 
 " disable scrollbars
-set guioptions+=lrb
-set guioptions-=lrb
+set guioptions+=Llrb
+set guioptions-=Llrb
 
 set showtabline=2
