@@ -1,4 +1,4 @@
-set guifont=Source\ Code\ Pro:h12.5
+set guifont=Source\ Code\ Pro:h16
 colo Tomorrow-Night
 syntax on
 
